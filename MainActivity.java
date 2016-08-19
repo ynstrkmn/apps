@@ -71,6 +71,7 @@ public class MainActivity extends AppCompatActivity {
         protected void onPostExecute(String result) {
             super.onPostExecute(result);
             //Do anything with response..
+            Toast.makeText(getApplicationContext(), "test", Toast.LENGTH_LONG).show();
         }
     }
 }
